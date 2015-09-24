@@ -120,7 +120,7 @@ $_PROFILE_MODULES = array (
   ),
   9 => 
   array (
-    'id' => '11',
+    'id' => '10',
     'module_name' => 'footer',
     'module_version' => '2.41',
     'menu_item' => '0',
@@ -133,7 +133,7 @@ $_PROFILE_MODULES = array (
   ),
   10 => 
   array (
-    'id' => '13',
+    'id' => '11',
     'module_name' => 'image',
     'module_version' => '6.11',
     'menu_item' => '1',
@@ -146,7 +146,7 @@ $_PROFILE_MODULES = array (
   ),
   11 => 
   array (
-    'id' => '14',
+    'id' => '12',
     'module_name' => 'tags',
     'module_version' => '6.01',
     'menu_item' => '1',
@@ -159,7 +159,7 @@ $_PROFILE_MODULES = array (
   ),
   12 => 
   array (
-    'id' => '15',
+    'id' => '13',
     'module_name' => 'files',
     'module_version' => '6.01',
     'menu_item' => '0',
@@ -172,20 +172,20 @@ $_PROFILE_MODULES = array (
   ),
   13 => 
   array (
-    'id' => '16',
+    'id' => '14',
     'module_name' => 'blog',
     'module_version' => '6.11',
     'menu_item' => '1',
     'run_level' => '0',
     'load_on' => NULL,
     'parent' => NULL,
-    'is_shell' => '1',
+    'is_shell' => NULL,
     'public_clone_url' => 'https://github.com/diversen/blog.git',
     'private_clone_url' => 'git@github.com:diversen/blog.git',
   ),
   14 => 
   array (
-    'id' => '17',
+    'id' => '15',
     'module_name' => 'share',
     'module_version' => '6.01',
     'menu_item' => '0',
@@ -198,7 +198,7 @@ $_PROFILE_MODULES = array (
   ),
   15 => 
   array (
-    'id' => '18',
+    'id' => '16',
     'module_name' => 'count',
     'module_version' => '3.01',
     'menu_item' => '0',
@@ -211,7 +211,7 @@ $_PROFILE_MODULES = array (
   ),
   16 => 
   array (
-    'id' => '19',
+    'id' => '17',
     'module_name' => 'userinfo',
     'module_version' => '6.11',
     'menu_item' => '1',
@@ -224,7 +224,7 @@ $_PROFILE_MODULES = array (
   ),
   17 => 
   array (
-    'id' => '20',
+    'id' => '18',
     'module_name' => 'blocks',
     'module_version' => '6.01',
     'menu_item' => '1',
@@ -237,7 +237,7 @@ $_PROFILE_MODULES = array (
   ),
   18 => 
   array (
-    'id' => '21',
+    'id' => '19',
     'module_name' => 'gittobook',
     'module_version' => '6.01',
     'menu_item' => '1',
@@ -250,7 +250,7 @@ $_PROFILE_MODULES = array (
   ),
   19 => 
   array (
-    'id' => '22',
+    'id' => '20',
     'module_name' => 'analytics',
     'module_version' => '6.01',
     'menu_item' => '1',
