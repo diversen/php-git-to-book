@@ -19,3 +19,4 @@ vendor/
 /composer-master.json
 htdocs/books/*
 private/*
+/tmp
