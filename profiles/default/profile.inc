@@ -174,7 +174,7 @@ $_PROFILE_MODULES = array (
   array (
     'id' => '14',
     'module_name' => 'blog',
-    'module_version' => '7.03',
+    'module_version' => '7.04',
     'menu_item' => '1',
     'run_level' => '0',
     'load_on' => NULL,
@@ -252,14 +252,27 @@ $_PROFILE_MODULES = array (
   array (
     'id' => '20',
     'module_name' => 'analytics',
-    'module_version' => '7.01',
+    'module_version' => '7.02',
     'menu_item' => '1',
     'run_level' => '0,5',
     'load_on' => NULL,
     'parent' => NULL,
     'is_shell' => NULL,
-    'public_clone_url' => 'git://github.com/diversen/analytics.git',
+    'public_clone_url' => 'https://github.com/diversen/analytics.git',
     'private_clone_url' => 'git@github.com:diversen/analytics.git',
+  ),
+  20 => 
+  array (
+    'id' => '21',
+    'module_name' => 'comment',
+    'module_version' => '7.03',
+    'menu_item' => '1',
+    'run_level' => '0',
+    'load_on' => NULL,
+    'parent' => NULL,
+    'is_shell' => NULL,
+    'public_clone_url' => 'git://github.com/diversen/comment.git',
+    'private_clone_url' => 'git@github.com:diversen/comment.git',
   ),
 );
 
