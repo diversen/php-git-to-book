@@ -239,7 +239,7 @@ $_PROFILE_MODULES = array (
   array (
     'id' => '19',
     'module_name' => 'gittobook',
-    'module_version' => '7.01',
+    'module_version' => '7.02',
     'menu_item' => '1',
     'run_level' => '0',
     'load_on' => NULL,
