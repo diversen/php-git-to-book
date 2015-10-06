@@ -280,7 +280,7 @@ $_PROFILE_TEMPLATES = array (
   ),
   2 => 
   array (
-    'module_version' => '7.02',
+    'module_version' => '7.03',
     'module_name' => 'uikit',
     'public_clone_url' => 'https://github.com/diversen/uikit',
   ),
