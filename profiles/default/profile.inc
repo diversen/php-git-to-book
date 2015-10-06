@@ -261,6 +261,19 @@ $_PROFILE_MODULES = array (
     'public_clone_url' => 'git://github.com/diversen/comment.git',
     'private_clone_url' => 'git@github.com:diversen/comment.git',
   ),
+  20 => 
+  array (
+    'id' => '22',
+    'module_name' => 'vote',
+    'module_version' => '7.01',
+    'menu_item' => '0',
+    'run_level' => '0',
+    'load_on' => NULL,
+    'parent' => NULL,
+    'is_shell' => NULL,
+    'public_clone_url' => 'https://github.com/diversen/vote.git',
+    'private_clone_url' => 'git@github.com:diversen/vote.git',
+  ),
 );
 
 $_PROFILE_TEMPLATES = array (
@@ -280,7 +293,7 @@ $_PROFILE_TEMPLATES = array (
   ),
   2 => 
   array (
-    'module_version' => '7.03',
+    'module_version' => '7.04',
     'module_name' => 'uikit',
     'public_clone_url' => 'https://github.com/diversen/uikit',
   ),
