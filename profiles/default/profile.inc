@@ -44,7 +44,7 @@ $_PROFILE_MODULES = array (
   array (
     'id' => '4',
     'module_name' => 'account',
-    'module_version' => '7.06',
+    'module_version' => '7.07',
     'menu_item' => '0',
     'run_level' => '0',
     'load_on' => NULL,
@@ -174,7 +174,7 @@ $_PROFILE_MODULES = array (
   array (
     'id' => '15',
     'module_name' => 'share',
-    'module_version' => '7.01',
+    'module_version' => '7.02',
     'menu_item' => '0',
     'run_level' => '0',
     'load_on' => NULL,
@@ -226,7 +226,7 @@ $_PROFILE_MODULES = array (
   array (
     'id' => '19',
     'module_name' => 'gittobook',
-    'module_version' => '7.02',
+    'module_version' => '7.04',
     'menu_item' => '1',
     'run_level' => '0',
     'load_on' => NULL,
@@ -268,7 +268,7 @@ $_PROFILE_TEMPLATES = array (
   array (
     'public_clone_url' => 'git://github.com/diversen/zimpleza.git',
     'private_clone_url' => 'git@github.com:diversen/zimpleza.git',
-    'module_version' => '7.01',
+    'module_version' => '7.02',
     'module_name' => 'zimpleza',
   ),
   1 => 
@@ -278,7 +278,13 @@ $_PROFILE_TEMPLATES = array (
     'module_version' => '7.01',
     'module_name' => 'jquery-markedit',
   ),
+  2 => 
+  array (
+    'module_version' => '7.02',
+    'module_name' => 'uikit',
+    'public_clone_url' => 'https://github.com/diversen/uikit',
+  ),
 );
 
-$_PROFILE_TEMPLATE = 'zimpleza';
+$_PROFILE_TEMPLATE = 'uikit';
 
