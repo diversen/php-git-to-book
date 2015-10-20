@@ -1,6 +1,6 @@
 # Demo
 
-There is a demo at [https://gittobook.org](https://gittobook.org)
+There is a demo at [http://gittobook.org](http://gittobook.org)
 
 # Install
 
