@@ -70,20 +70,20 @@ $_PROFILE_MODULES = array (
   array (
     'id' => '6',
     'module_name' => 'jquerysort',
-    'module_version' => '7.01',
+    'module_version' => '7.02',
     'menu_item' => '0',
     'run_level' => '0',
     'load_on' => NULL,
     'parent' => NULL,
     'is_shell' => NULL,
-    'public_clone_url' => 'git://github.com/diversen/jquerysort.git',
+    'public_clone_url' => 'https://github.com/diversen/jquerysort.git',
     'private_clone_url' => 'git@github.com:diversen/jquerysort.git',
   ),
   6 => 
   array (
     'id' => '7',
     'module_name' => 'locales',
-    'module_version' => '7.01',
+    'module_version' => '7.02',
     'menu_item' => '1',
     'run_level' => '0',
     'load_on' => NULL,
@@ -239,7 +239,7 @@ $_PROFILE_MODULES = array (
   array (
     'id' => '20',
     'module_name' => 'analytics',
-    'module_version' => '7.02',
+    'module_version' => '7.03',
     'menu_item' => '1',
     'run_level' => '0,5',
     'load_on' => NULL,
@@ -252,7 +252,7 @@ $_PROFILE_MODULES = array (
   array (
     'id' => '21',
     'module_name' => 'comment',
-    'module_version' => '7.03',
+    'module_version' => '7.04',
     'menu_item' => '1',
     'run_level' => '0',
     'load_on' => NULL,
@@ -293,7 +293,7 @@ $_PROFILE_TEMPLATES = array (
   ),
   2 => 
   array (
-    'module_version' => '7.06',
+    'module_version' => '7.07',
     'module_name' => 'uikit',
     'public_clone_url' => 'https://github.com/diversen/uikit',
   ),
