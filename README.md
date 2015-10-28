@@ -9,7 +9,7 @@ There is a demo at [http://gittobook.org](http://gittobook.org)
 * Apache2
 * php5 >= 5.3
 * mysql-server
-* pandoc
+* pandoc (Epub, Docx files)
 * texlive-full (for PDF support)
 * kindlegen (for Mobi support)
 
@@ -36,7 +36,7 @@ Run install command:
 
     ./coscli.sh prompt-install --install
 
-You will be asked about DB configuration,  and version to install. Choose a `tag` or use `master`. After writing the `config/config.ini` file the system will install all the profile modules from git repos. At last the system will prompt you for a super user. Enter an email and password
+You will be asked about version to install. Choose a `tag` or use `master`. The you will be asked about about MySQL configuration - and also ServerHost (example.com). The configuration file will be rewritten `config/config.ini`. Then the system will install all the profile modules from git repos. At last the system will prompt you for a super user. Enter an email and password
 
 Set correct perms for public files after install (e.g. upload folder)
 
@@ -48,7 +48,7 @@ We use a extra public directory, which you will need to add manual:
 
     mkdir htdocs/books
     
-Change ownership: 
+Change ownership (if using www-data): 
 
     sudo chown www-data:www-data htdocs/books
 
