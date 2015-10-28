@@ -5,7 +5,7 @@ $_PROFILE_MODULES = array (
   array (
     'id' => '1',
     'module_name' => 'system',
-    'module_version' => '7.01',
+    'module_version' => '7.02',
     'menu_item' => '0',
     'run_level' => '0',
     'load_on' => NULL,
@@ -83,13 +83,13 @@ $_PROFILE_MODULES = array (
   array (
     'id' => '7',
     'module_name' => 'locales',
-    'module_version' => '7.02',
+    'module_version' => '7.03',
     'menu_item' => '1',
     'run_level' => '0',
     'load_on' => NULL,
     'parent' => NULL,
     'is_shell' => NULL,
-    'public_clone_url' => 'git://github.com/diversen/locales.git',
+    'public_clone_url' => 'https://github.com/diversen/locales.git',
     'private_clone_url' => 'git@github.com:diversen/locales.git',
   ),
   7 => 
@@ -200,7 +200,7 @@ $_PROFILE_MODULES = array (
   array (
     'id' => '17',
     'module_name' => 'userinfo',
-    'module_version' => '7.02',
+    'module_version' => '7.04',
     'menu_item' => '1',
     'run_level' => '0',
     'load_on' => NULL,
@@ -226,7 +226,7 @@ $_PROFILE_MODULES = array (
   array (
     'id' => '19',
     'module_name' => 'gittobook',
-    'module_version' => '7.06',
+    'module_version' => '7.07',
     'menu_item' => '1',
     'run_level' => '0',
     'load_on' => NULL,
@@ -236,19 +236,6 @@ $_PROFILE_MODULES = array (
     'private_clone_url' => 'git@github.com:diversen/gittobook.git',
   ),
   18 => 
-  array (
-    'id' => '20',
-    'module_name' => 'analytics',
-    'module_version' => '7.03',
-    'menu_item' => '1',
-    'run_level' => '0,5',
-    'load_on' => NULL,
-    'parent' => NULL,
-    'is_shell' => NULL,
-    'public_clone_url' => 'https://github.com/diversen/analytics.git',
-    'private_clone_url' => 'git@github.com:diversen/analytics.git',
-  ),
-  19 => 
   array (
     'id' => '21',
     'module_name' => 'comment',
@@ -261,7 +248,7 @@ $_PROFILE_MODULES = array (
     'public_clone_url' => 'git://github.com/diversen/comment.git',
     'private_clone_url' => 'git@github.com:diversen/comment.git',
   ),
-  20 => 
+  19 => 
   array (
     'id' => '22',
     'module_name' => 'vote',
@@ -273,6 +260,19 @@ $_PROFILE_MODULES = array (
     'is_shell' => NULL,
     'public_clone_url' => 'https://github.com/diversen/vote.git',
     'private_clone_url' => 'git@github.com:diversen/vote.git',
+  ),
+  20 => 
+  array (
+    'id' => '29',
+    'module_name' => 'analytics',
+    'module_version' => '7.03',
+    'menu_item' => '1',
+    'run_level' => '0,5',
+    'load_on' => NULL,
+    'parent' => NULL,
+    'is_shell' => NULL,
+    'public_clone_url' => 'https://github.com/diversen/analytics',
+    'private_clone_url' => 'git@github.com:diversen/analytics',
   ),
 );
 
