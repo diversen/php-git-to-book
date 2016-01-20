@@ -1,2 +1,2 @@
 template_js[] = '/templates/zimpleza/js/image.fullLink.js'
-zimpleza_highlight_disable = 1
+zimpleza_highlight_disable = 0
