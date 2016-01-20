@@ -200,7 +200,7 @@ $_PROFILE_MODULES = array (
   array (
     'id' => '19',
     'module_name' => 'analytics',
-    'module_version' => '7.03',
+    'module_version' => '7.04',
     'menu_item' => '1',
     'run_level' => '0,5',
     'load_on' => NULL,
