@@ -214,7 +214,7 @@ $_PROFILE_MODULES = array (
 $_PROFILE_TEMPLATES = array (
   0 => 
   array (
-    'module_version' => '7.07',
+    'module_version' => '7.08',
     'module_name' => 'uikit',
     'public_clone_url' => 'https://github.com/diversen/uikit',
   ),
