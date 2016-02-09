@@ -10,6 +10,8 @@ account_google_secret = ""
 account_google_scope = "email"
 account_google_redirect = "http://gittobook.org/account/google/redirect"
 account_logins[0] = "email"
+account_redirect_login = "/gittobook/repos"
+account_redirect_logout = "/account/index"
 [development]
 account_logins[0] = "email"
 account_needs_email = 0
