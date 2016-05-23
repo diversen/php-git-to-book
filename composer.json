@@ -4,7 +4,7 @@
 
         {
             "type": "pear",
-            "url": "http://pear.php.net"
+            "url": "https://pear.php.net"
         }
 
     ],
@@ -29,6 +29,7 @@
         "gregwar/image": "^2.0",
         "stil/gd-text": "^1.0",
         "symfony/yaml": "^2.7",
-        "diversen/redbean-composer": "^4.3"
+        "diversen/redbean-composer": "^4.3",
+        "composer/semver": "^1.4"
     }
 }
