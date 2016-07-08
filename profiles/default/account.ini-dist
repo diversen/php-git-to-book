@@ -1,5 +1,5 @@
-account_allow_edit = "super"
-account_show_admin_link = "super"
+account_allow_create = "super"
+account_anon_create = "user"
 account_facebook_api_secret = ""
 account_facebook_api_appid = "appid"
 account_github_id = "1ebdb8c1e2d239019a27"
