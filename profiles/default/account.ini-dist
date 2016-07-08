@@ -1,17 +1,5 @@
 account_allow_create = "super"
 account_anon_create = "user"
-account_facebook_api_secret = ""
-account_facebook_api_appid = "appid"
-account_github_id = "1ebdb8c1e2d239019a27"
-account_github_secret = ""
-account_github_scope = ""
-account_google_id = ""
-account_google_secret = ""
-account_google_scope = "email"
-account_google_redirect = "http://gittobook.org/account/google/redirect"
 account_logins[0] = "email"
 account_redirect_login = "/gittobook/repos"
 account_redirect_logout = "/account/index"
-[development]
-account_logins[0] = "email"
-account_needs_email = 0
