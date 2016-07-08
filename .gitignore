@@ -15,8 +15,8 @@ htdocs/templates/*
 htdocs/files/*
 modules/*
 vendor/
-/*.lock
-/composer-master.json
+composer-master.lock
+composer-master.json
 htdocs/books/*
 private/*
 /tmp
