@@ -35,6 +35,6 @@
         "paragonie/random_compat": "^2.0",
         "diversen/php-markdown-docs": "^1.0",
         "diversen/redbean-composer": "^4.3",
-        "diversen/queue-simplex": "dev-master"
+        "diversen/queue-simplex": "^1.0"
     }
 }
