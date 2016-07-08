@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7226095de7652aaf05d8484f8f00fee7",
-    "content-hash": "75f64316ce92ae6f68f8a04756bf554f",
+    "hash": "9ecb2ca99e4e03e71b95ea9f25cfc128",
+    "content-hash": "9136b3e806b32221eee18e2ea8887809",
     "packages": [
         {
             "name": "composer/semver",
@@ -335,16 +335,16 @@
         },
         {
             "name": "diversen/simple-php-classes",
-            "version": "dev-master",
+            "version": "v1.4.112",
             "source": {
                 "type": "git",
                 "url": "https://github.com/diversen/simple-php-classes.git",
-                "reference": "25bd600776f02bf7ec97937696ccae7dabc7edb8"
+                "reference": "e6b9631ea19f2c42f40e4f9fe545a93991dda27a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/diversen/simple-php-classes/zipball/25bd600776f02bf7ec97937696ccae7dabc7edb8",
-                "reference": "25bd600776f02bf7ec97937696ccae7dabc7edb8",
+                "url": "https://api.github.com/repos/diversen/simple-php-classes/zipball/e6b9631ea19f2c42f40e4f9fe545a93991dda27a",
+                "reference": "e6b9631ea19f2c42f40e4f9fe545a93991dda27a",
                 "shasum": ""
             },
             "type": "library",
@@ -368,7 +368,7 @@
                 "framework",
                 "lib"
             ],
-            "time": "2016-07-08 12:15:52"
+            "time": "2016-06-30 13:01:52"
         },
         {
             "name": "diversen/simple-php-github-api",
@@ -1350,9 +1350,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "diversen/simple-php-classes": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
