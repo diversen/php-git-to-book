@@ -3,6 +3,8 @@ htdocs/app.yaml
 htdocs/test/*
 htdocs/test.php
 htdocs/phpdocs
+htdocs/books
+
 config/config.ini
 config/shared.ini
 config/multi/*
@@ -15,7 +17,6 @@ htdocs/templates/*
 htdocs/files/*
 modules/*
 vendor/
-htdocs/books
 composer-master.lock
 composer-master.json
 htdocs/books/*
