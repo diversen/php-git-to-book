@@ -5,7 +5,7 @@ $_PROFILE_MODULES = array (
   array (
     'id' => '1',
     'module_name' => 'system',
-    'module_version' => 'v10.1.1',
+    'module_version' => 'v11.0.0',
     'menu_item' => '0',
     'run_level' => '0',
     'load_on' => NULL,
@@ -18,7 +18,7 @@ $_PROFILE_MODULES = array (
   array (
     'id' => '2',
     'module_name' => 'settings',
-    'module_version' => 'v10.1.1',
+    'module_version' => 'v11.0.0',
     'menu_item' => '0',
     'run_level' => '0',
     'load_on' => NULL,
@@ -31,7 +31,7 @@ $_PROFILE_MODULES = array (
   array (
     'id' => '3',
     'module_name' => 'error',
-    'module_version' => 'v10.1.1',
+    'module_version' => 'v11.0.0',
     'menu_item' => '0',
     'run_level' => '0',
     'load_on' => NULL,
@@ -44,7 +44,7 @@ $_PROFILE_MODULES = array (
   array (
     'id' => '4',
     'module_name' => 'account',
-    'module_version' => 'v10.1.1',
+    'module_version' => 'v11.0.0',
     'menu_item' => '0',
     'run_level' => '0',
     'load_on' => NULL,
@@ -55,9 +55,9 @@ $_PROFILE_MODULES = array (
   ),
   4 => 
   array (
-    'id' => '6',
+    'id' => '5',
     'module_name' => 'jquerysort',
-    'module_version' => 'v10.1.1',
+    'module_version' => 'v11.0.0',
     'menu_item' => '0',
     'run_level' => '0',
     'load_on' => NULL,
@@ -68,9 +68,9 @@ $_PROFILE_MODULES = array (
   ),
   5 => 
   array (
-    'id' => '7',
+    'id' => '6',
     'module_name' => 'locales',
-    'module_version' => 'v10.1.1',
+    'module_version' => 'v11.0.0',
     'menu_item' => '1',
     'run_level' => '0',
     'load_on' => NULL,
@@ -81,9 +81,9 @@ $_PROFILE_MODULES = array (
   ),
   6 => 
   array (
-    'id' => '8',
+    'id' => '7',
     'module_name' => 'configdb',
-    'module_version' => 'v10.1.1',
+    'module_version' => 'v11.0.0',
     'menu_item' => '0',
     'run_level' => '2,6',
     'load_on' => NULL,
@@ -94,9 +94,9 @@ $_PROFILE_MODULES = array (
   ),
   7 => 
   array (
-    'id' => '9',
+    'id' => '8',
     'module_name' => 'menus',
-    'module_version' => 'v10.1.1',
+    'module_version' => 'v11.0.0',
     'menu_item' => '1',
     'run_level' => '0',
     'load_on' => NULL,
@@ -107,10 +107,10 @@ $_PROFILE_MODULES = array (
   ),
   8 => 
   array (
-    'id' => '11',
+    'id' => '9',
     'module_name' => 'image',
-    'module_version' => 'v10.1.1',
-    'menu_item' => '1',
+    'module_version' => 'v11.0.0',
+    'menu_item' => '0',
     'run_level' => '0',
     'load_on' => NULL,
     'parent' => NULL,
@@ -120,9 +120,9 @@ $_PROFILE_MODULES = array (
   ),
   9 => 
   array (
-    'id' => '12',
+    'id' => '10',
     'module_name' => 'tags',
-    'module_version' => 'v10.1.1',
+    'module_version' => 'v11.0.0',
     'menu_item' => '1',
     'run_level' => '0',
     'load_on' => NULL,
@@ -133,9 +133,9 @@ $_PROFILE_MODULES = array (
   ),
   10 => 
   array (
-    'id' => '13',
+    'id' => '11',
     'module_name' => 'files',
-    'module_version' => 'v10.1.1',
+    'module_version' => 'v11.0.0',
     'menu_item' => '0',
     'run_level' => '0',
     'load_on' => NULL,
@@ -146,9 +146,9 @@ $_PROFILE_MODULES = array (
   ),
   11 => 
   array (
-    'id' => '14',
+    'id' => '12',
     'module_name' => 'blog',
-    'module_version' => 'v10.1.1',
+    'module_version' => 'v11.0.0',
     'menu_item' => '1',
     'run_level' => '0',
     'load_on' => NULL,
@@ -159,9 +159,9 @@ $_PROFILE_MODULES = array (
   ),
   12 => 
   array (
-    'id' => '15',
+    'id' => '13',
     'module_name' => 'share',
-    'module_version' => 'v10.1.1',
+    'module_version' => 'v11.0.0',
     'menu_item' => '0',
     'run_level' => '0',
     'load_on' => NULL,
@@ -172,9 +172,9 @@ $_PROFILE_MODULES = array (
   ),
   13 => 
   array (
-    'id' => '16',
+    'id' => '14',
     'module_name' => 'count',
-    'module_version' => 'v10.1.1',
+    'module_version' => 'v11.0.0',
     'menu_item' => '0',
     'run_level' => '0',
     'load_on' => NULL,
@@ -185,9 +185,9 @@ $_PROFILE_MODULES = array (
   ),
   14 => 
   array (
-    'id' => '17',
+    'id' => '15',
     'module_name' => 'userinfo',
-    'module_version' => 'v10.1.1',
+    'module_version' => 'v11.0.0',
     'menu_item' => '1',
     'run_level' => '0',
     'load_on' => NULL,
@@ -198,9 +198,9 @@ $_PROFILE_MODULES = array (
   ),
   15 => 
   array (
-    'id' => '18',
+    'id' => '16',
     'module_name' => 'blocks',
-    'module_version' => 'v10.1.1',
+    'module_version' => 'v11.0.0',
     'menu_item' => '1',
     'run_level' => '0',
     'load_on' => NULL,
@@ -211,9 +211,9 @@ $_PROFILE_MODULES = array (
   ),
   16 => 
   array (
-    'id' => '19',
+    'id' => '17',
     'module_name' => 'gittobook',
-    'module_version' => 'v10.1.1',
+    'module_version' => 'v11.0.0',
     'menu_item' => '1',
     'run_level' => '0',
     'load_on' => NULL,
@@ -224,9 +224,9 @@ $_PROFILE_MODULES = array (
   ),
   17 => 
   array (
-    'id' => '29',
+    'id' => '18',
     'module_name' => 'analytics',
-    'module_version' => 'v10.1.1',
+    'module_version' => 'v11.0.0',
     'menu_item' => '1',
     'run_level' => '0,5',
     'load_on' => NULL,
@@ -237,9 +237,9 @@ $_PROFILE_MODULES = array (
   ),
   18 => 
   array (
-    'id' => '30',
+    'id' => '19',
     'module_name' => 'footer',
-    'module_version' => 'v10.1.1',
+    'module_version' => 'v11.0.0',
     'menu_item' => '0',
     'run_level' => '7',
     'load_on' => NULL,
@@ -253,7 +253,7 @@ $_PROFILE_MODULES = array (
 $_PROFILE_TEMPLATES = array (
   0 => 
   array (
-    'module_version' => 'v10.1.1',
+    'module_version' => 'v11.0.0',
     'module_name' => 'uikit',
     'public_clone_url' => 'https://github.com/diversen/uikit',
     'private_clone_url' => 'git@github.com:diversen/uikit',
