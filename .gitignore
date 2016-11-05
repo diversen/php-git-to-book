@@ -15,6 +15,7 @@ htdocs/templates/*
 htdocs/files/*
 modules/*
 vendor/
+htdocs/books
 composer-master.lock
 composer-master.json
 htdocs/books/*
