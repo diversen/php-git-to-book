@@ -37,5 +37,6 @@
         "diversen/php-markdown-docs": "^1.0",
         "diversen/redbean-composer": "^4.3",
         "diversen/queue-simplex": "^1.0"
+        "diversen/get-meta-tags": "^1.0"
     }
 }
