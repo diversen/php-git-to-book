@@ -34,3 +34,6 @@ cached_assets_reload = 0
 meta_desc = "Gitobook. Simplified publishing tool using Git and Markdown."
 meta_keywords = "Gitobook, publishing, git, markdown, simple"
 server_name = "gittobook"
+google_translate_key = ""
+[development]
+hostname = "dennis-Inspiron-531"
