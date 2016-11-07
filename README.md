@@ -57,7 +57,7 @@ Go to http://example.com and log in and add a repo.
 
 ## System config
 
-If you make the above install, then the system is multi user by default. But you can make a few configuration changes in order to change this. This shows the default `gitbook.ini` file which is located in `modules/gitbook`.
+If you make the above install, then the system is multi user by default. But you can make a few configuration changes in order to change this. This shows the default `gittobook.ini` file which is located in `modules/gittobook`.
 
 ~~~ini
 ; who can use it
