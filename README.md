@@ -7,6 +7,7 @@ There is a demo at [http://gittobook.org](http://gittobook.org)
 ## Requirements: 
 
 * Apache2
+* apache2 mod rewrite (a2enmod rewrite)
 * php5 >= 5.3
 * mysql-server
 * pandoc (Epub, Docx files)
