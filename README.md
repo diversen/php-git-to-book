@@ -8,7 +8,7 @@ There is a demo at [http://gittobook.org](http://gittobook.org)
 
 * Apache2
 * apache2 mod rewrite (a2enmod rewrite)
-* php5 >= 5.3
+* php5 >= 5.3 (with curl, mbstring, pdo, mysql-pdo)
 * mysql-server
 * pandoc (Epub, Docx files)
 * texlive-full (for PDF support)
