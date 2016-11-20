@@ -18,7 +18,6 @@ htdocs/files/*
 modules/*
 vendor/
 composer-master.lock
-composer-master.json
 htdocs/books/*
 private/*
 /tmp
