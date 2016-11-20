@@ -35,9 +35,9 @@
         "facebook/graph-sdk": "^5.2",
         "paragonie/random_compat": "^2.0",
         "diversen/php-markdown-docs": "^1.0",
-        "diversen/redbean-composer": "^4.3",
         "diversen/queue-simplex": "^1.0",
         "diversen/get-meta-tags": "^1.0",
-        "diversen/mirror-path": "dev-master"
+        "diversen/mirror-path": "dev-master",
+        "gabordemooij/redbean": "^4.3"
     }
 }
