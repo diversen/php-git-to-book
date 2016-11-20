@@ -15,7 +15,7 @@
         "symfony/filesystem": "^2",
         "michelf/php-markdown": "^1.5",
         "diversen/cli-framework": "^1.3",
-        "diversen/http-send-file": "^1.0.0",
+        "diversen/http-send-file": "^1.0",
         "diversen/simple-pager": "^1.3",
         "diversen/simple-php-github-api": "^1.0",
         "diversen/simple-php-classes": "^1.4.0",
