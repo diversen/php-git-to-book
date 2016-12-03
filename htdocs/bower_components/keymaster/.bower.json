@@ -30,8 +30,8 @@
     "tag": "v1.6.3",
     "commit": "f561f3864f5093e71b4051dc45032c26187e87f6"
   },
-  "_source": "git://github.com/madrobby/keymaster.git",
-  "_target": "~1.6.3",
+  "_source": "https://github.com/madrobby/keymaster.git",
+  "_target": "^1.6.3",
   "_originalSource": "keymaster",
   "_direct": true
 }

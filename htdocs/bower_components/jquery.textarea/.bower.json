@@ -1,0 +1,14 @@
+{
+  "name": "jquery.textarea",
+  "_cacheHeaders": {
+    "ETag": "\"42621c8cda0afef7a25d3b2fa22482cc61fc6a18\"",
+    "Content-Length": "3557",
+    "Content-Type": "text/plain; charset=utf-8"
+  },
+  "_release": "e-tag:42621c8cd",
+  "main": "index.js",
+  "_source": "https://raw.githubusercontent.com/alanhogan/Tabby/v0.13.1/jquery.textarea.js",
+  "_target": "*",
+  "_originalSource": "https://raw.githubusercontent.com/alanhogan/Tabby/v0.13.1/jquery.textarea.js",
+  "_direct": true
+}

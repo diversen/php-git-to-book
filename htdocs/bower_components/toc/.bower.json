@@ -28,8 +28,8 @@
     "tag": "0.3.2",
     "commit": "364a654db3e173debb027ec443cc3a73b32c33e0"
   },
-  "_source": "git://github.com/jgallen23/toc.git",
-  "_target": "~0.3.2",
+  "_source": "https://github.com/jgallen23/toc.git",
+  "_target": "^0.3.2",
   "_originalSource": "toc",
   "_direct": true
 }

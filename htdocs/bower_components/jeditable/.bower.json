@@ -8,8 +8,8 @@
     "tag": "1.7.3",
     "commit": "2e6cceb34190b8584a85c500e3e5c942ed1610e3"
   },
-  "_source": "git://github.com/tuupola/jquery_jeditable.git",
-  "_target": "~1.7.3",
+  "_source": "https://github.com/tuupola/jquery_jeditable.git",
+  "_target": "^1.7.3",
   "_originalSource": "jeditable",
   "_direct": true
 }

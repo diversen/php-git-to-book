@@ -22,8 +22,8 @@
     "tag": "v1.1.2",
     "commit": "26416994fad49275cd65e3d5ad6998abf239ef55"
   },
-  "_source": "git://github.com/leafo/sticky-kit.git",
-  "_target": "~1.1.2",
+  "_source": "https://github.com/leafo/sticky-kit.git",
+  "_target": "^1.1.2",
   "_originalSource": "sticky-kit",
   "_direct": true
 }

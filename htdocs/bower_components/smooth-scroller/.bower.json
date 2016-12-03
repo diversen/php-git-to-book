@@ -27,7 +27,7 @@
     "tag": "0.1.2",
     "commit": "5287936fe3fda7dcdc47350343b104f3b6bf964f"
   },
-  "_source": "git://github.com/firstandthird/smooth-scroller.git",
+  "_source": "https://github.com/firstandthird/smooth-scroller.git",
   "_target": "~0.1.0",
   "_originalSource": "smooth-scroller"
 }

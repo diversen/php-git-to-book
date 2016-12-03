@@ -1,0 +1,33 @@
+{
+  "name": "rook-framework",
+  "homepage": "https://github.com/diversen",
+  "authors": [
+    "Dennis Iversen <dennis.iversen@gmail.com>"
+  ],
+  "description": "common js and css assets for the rook framework",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "nestedSortable": "^1.3.4",
+    "toc": "^0.3.2",
+    "jquery.textarea": "https://raw.githubusercontent.com/alanhogan/Tabby/v0.13.1/jquery.textarea.js",
+    "sticky-kit": "^1.1.2",
+    "smooth-scroller": "^1.0.1",
+    "keymaster": "^1.6.3",
+    "jeditable": "^1.7.3",
+    "jquery.cookie": "^1.4.1",
+    "jquery.cookiebar": "^1.2.1",
+    "jqueryui-touch-punch": "*"
+  },
+  "resolutions": {
+    "smooth-scroller": "~0.1.0"
+  }
+}
