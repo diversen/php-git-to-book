@@ -1,5 +1,5 @@
 account_allow_create = "super"
-account_anon_create = "user"
+account_anon_create = 1
 account_logins[0] = "email"
 account_redirect_login = "/gittobook/repos"
 account_redirect_logout = "/account/index"
