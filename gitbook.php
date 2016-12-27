@@ -41,6 +41,7 @@ $commands['g-translate'] =      new \diversen\commands\googleTranslate();
 $commands['profile'] =          new \diversen\commands\profileCommand();
 $commands['prompt-install'] =   new \diversen\commands\promptInstall();
 $commands['useradd'] =          new \diversen\commands\useradd();
+$commands['upgrade'] =          new \diversen\commands\upgrade();
 
 $cli->commands = $commands;
 $cli->runMain();
