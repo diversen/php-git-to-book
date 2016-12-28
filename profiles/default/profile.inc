@@ -133,32 +133,6 @@ $_PROFILE_MODULES = array (
   ),
   10 => 
   array (
-    'id' => '11',
-    'module_name' => 'files',
-    'module_version' => 'v11.0.0',
-    'menu_item' => '0',
-    'run_level' => '0',
-    'load_on' => NULL,
-    'parent' => NULL,
-    'is_shell' => NULL,
-    'public_clone_url' => 'https://github.com/diversen/files.git',
-    'private_clone_url' => 'git@github.com:diversen/files.git',
-  ),
-  11 => 
-  array (
-    'id' => '12',
-    'module_name' => 'blog',
-    'module_version' => 'v11.0.1',
-    'menu_item' => '1',
-    'run_level' => '0',
-    'load_on' => NULL,
-    'parent' => NULL,
-    'is_shell' => NULL,
-    'public_clone_url' => 'https://github.com/diversen/blog.git',
-    'private_clone_url' => 'git@github.com:diversen/blog.git',
-  ),
-  12 => 
-  array (
     'id' => '13',
     'module_name' => 'share',
     'module_version' => 'v11.0.1',
@@ -170,7 +144,7 @@ $_PROFILE_MODULES = array (
     'public_clone_url' => 'https://github.com/diversen/share.git',
     'private_clone_url' => 'git@github.com:diversen/share.git',
   ),
-  13 => 
+  11 => 
   array (
     'id' => '14',
     'module_name' => 'count',
@@ -183,7 +157,7 @@ $_PROFILE_MODULES = array (
     'public_clone_url' => 'https://github.com/diversen/count.git',
     'private_clone_url' => 'git@github.com:diversen/count.git',
   ),
-  14 => 
+  12 => 
   array (
     'id' => '15',
     'module_name' => 'userinfo',
@@ -196,7 +170,7 @@ $_PROFILE_MODULES = array (
     'public_clone_url' => 'https://github.com/diversen/userinfo.git',
     'private_clone_url' => 'git@github.com:diversen/userinfo.git',
   ),
-  15 => 
+  13 => 
   array (
     'id' => '16',
     'module_name' => 'blocks',
@@ -209,7 +183,7 @@ $_PROFILE_MODULES = array (
     'public_clone_url' => 'https://github.com/diversen/blocks.git',
     'private_clone_url' => 'git@github.com:diversen/blocks.git',
   ),
-  16 => 
+  14 => 
   array (
     'id' => '17',
     'module_name' => 'gittobook',
@@ -222,7 +196,7 @@ $_PROFILE_MODULES = array (
     'public_clone_url' => 'https://github.com/diversen/gittobook.git',
     'private_clone_url' => 'git@github.com:diversen/gittobook.git',
   ),
-  17 => 
+  15 => 
   array (
     'id' => '18',
     'module_name' => 'analytics',
@@ -235,7 +209,7 @@ $_PROFILE_MODULES = array (
     'public_clone_url' => 'https://github.com/diversen/analytics',
     'private_clone_url' => 'git@github.com:diversen/analytics',
   ),
-  18 => 
+  16 => 
   array (
     'id' => '19',
     'module_name' => 'footer',
