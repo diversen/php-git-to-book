@@ -20,6 +20,9 @@ bootCli();
 $res = dbConn();
 
 $cli = new minimalCli();
+$cli->header = 'Gittobook Commandline Tool';
+
+
 
 // $apache2 = new \diversen\commands\apache2Command();
 $commands = [];
