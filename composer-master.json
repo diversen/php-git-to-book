@@ -10,7 +10,7 @@
 
 
     "require": {
-        "diversen/rook-framework": "^1.0",
+        "diversen/rook-framework": "^2.0",
         "diversen/simple-php-classes": "^1.4",
         "diversen/minimal-query-builder": "dev-master",
         "diversen/parse-argv": "dev-master",
