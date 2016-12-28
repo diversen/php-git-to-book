@@ -22,9 +22,7 @@ $res = dbConn();
 $cli = new minimalCli();
 $cli->header = 'Gittobook Commandline Tool';
 
-
-
-// $apache2 = new \diversen\commands\apache2Command();
+// Add commands
 $commands = [];
 $commands['apache2'] =          new \diversen\commands\apache2Command();
 $commands['backup'] =           new \diversen\commands\backup();
