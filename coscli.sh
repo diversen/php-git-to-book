@@ -5,22 +5,19 @@ include_once "vendor/autoload.php";
 
 use diversen\autoloader\modules;
 use diversen\conf;
-use diversen\file;
-use diversen\intl;
-use diversen\lang;
-use diversen\log;
 use diversen\minimalCli;
 use diversen\db\connect;
+use diversen\cli\helpers;
 
 $path = dirname(__FILE__);
 conf::setMainIni('base_path', $path);
 
-bootCli();
-
-$res = dbConn();
+// Boot base system
+$cliHelp = new diversen\cli\helpers();
+$cliHelp->bootCli();
 
 $cli = new minimalCli();
-$cli->header = 'Gittobook Commandline Tool';
+$cli->header = 'GitToBook Commandline Tool';
 
 // Add commands
 $commands = [];
@@ -44,70 +41,16 @@ $commands['prompt-install'] =   new \diversen\commands\promptInstall();
 $commands['useradd'] =          new \diversen\commands\useradd();
 $commands['upgrade'] =          new \diversen\commands\upgrade();
 
+// Check if database connection exists, and add any module commands
+$res = $cliHelp->dbConExists();
+if ($res) {
+    if ($cliHelp->tablesExists()) {
+        $module_commands = $cliHelp->getModuleCommands();
+        $commands = array_merge($commands, $module_commands);
+        ksort($commands);
+    } 
+}
+
+// Set commands and run the script
 $cli->commands = $commands;
 $cli->runMain();
-
-//mainCli::init();
-//$ret = mainCli::run();
-//exit($ret);
-
-
-function bootCLi() {
-    // Autoload modules
-    $m = new modules();
-    $m->autoloadRegister();
-
-    // Define all essential paths. 
-    // base_path has been enabled, and based on this we 
-    // set htdocs_path, modules_path, files_dir
-    conf::defineCommon();
-
-    // Set include paths - based on config.ini
-    // enable modules_path base_path as include_dirs
-    conf::setIncludePath();
-
-    // Load config file 
-    conf::load();
-
-    // set public file folder in file
-    file::$basePath = conf::getFullFilesPath();
-
-    // Set log level - based on config.ini
-
-    $log_file = conf::pathBase() . '/logs/system.log';
-    log::setErrorLogFile($log_file);
-    if (conf::getMainIni('debug')) {
-        log::enableDebug();
-    }
-
-    // Set locales
-    intl::setLocale();
-
-    // Set default timezone
-    intl::setTimezone();
-
-    // Enable translation
-    $l = new lang();
-
-    // Load all language files
-    $base = conf::pathBase();
-    $l->setDirsInsideDir("$base/modules/");
-    $l->setDirsInsideDir("$base/htdocs/templates/");
-    $l->setSingleDir("$base/vendor/diversen/simple-php-classes");
-    $l->loadLanguage(conf::getMainIni('lang'));
-}
-
-function dbConn() {
-    $db_conn = array(
-        'url' => conf::getMainIni('url'),
-        'username' => conf::getMainIni('username'),
-        'password' => conf::getMainIni('password'),
-        'db_init' => conf::getMainIni('db_init'),
-        'dont_die' => 1
-    );
-
-    $ret = connect::connect($db_conn);
-    if ($ret == 'NO_DB_CONN') {
-        return false;
-    }
-}

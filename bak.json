@@ -1,0 +1,21 @@
+{
+    "repositories": [
+
+        {
+            "type": "pear",
+            "url": "https://pear.php.net"
+        }
+
+    ],
+
+
+    "require": {
+        "diversen/rook-framework": "^2.0",
+        "diversen/simple-php-classes": "^1.4",
+        "diversen/minimal-query-builder": "dev-master",
+        "diversen/parse-argv": "dev-master",
+        "jakub-onderka/php-console-color": "^0.1.0",
+        "danielstjules/stringy": "^2.3",
+        "diversen/minimal-cli-framework": "dev-master"
+    }
+}
