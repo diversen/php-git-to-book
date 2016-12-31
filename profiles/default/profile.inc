@@ -187,7 +187,7 @@ $_PROFILE_MODULES = array (
   array (
     'id' => '18',
     'module_name' => 'gittobook',
-    'module_version' => 'v11.0.7',
+    'module_version' => 'v11.0.8',
     'menu_item' => '1',
     'run_level' => '0',
     'load_on' => NULL,
@@ -214,7 +214,7 @@ $_PROFILE_MODULES = array (
 $_PROFILE_TEMPLATES = array (
   0 => 
   array (
-    'module_version' => 'v11.0.1',
+    'module_version' => 'v11.0.2',
     'module_name' => 'uikit',
     'public_clone_url' => 'https://github.com/diversen/uikit',
     'private_clone_url' => 'git@github.com:diversen/uikit',

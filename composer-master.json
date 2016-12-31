@@ -11,6 +11,8 @@
 
     "require": {
         "diversen/rook-framework": "^2.0",
-        "diversen/simple-php-classes": "dev-master"
+        "diversen/simple-php-classes": "dev-master",
+        "crodas/languagedetector": "^0.1.1",
+        "diversen/simple-php-translation": "dev-master"
     }
 }
