@@ -72,3 +72,5 @@ gitbook_exports = 'epub,html,pdf'
 ; assets allowed for 'gitbook_allow'
 gitbook_allow_assets = 'css,jpeg,jpg,png,gif'
 ~~~
+
+License: MIT
