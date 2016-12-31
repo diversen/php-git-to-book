@@ -209,6 +209,19 @@ $_PROFILE_MODULES = array (
     'public_clone_url' => 'https://github.com/diversen/analytics.git',
     'private_clone_url' => 'git@github.com:diversen/analytics.git',
   ),
+  16 => 
+  array (
+    'id' => '20',
+    'module_name' => 'footer',
+    'module_version' => 'v11.0.0',
+    'menu_item' => '0',
+    'run_level' => '7',
+    'load_on' => NULL,
+    'parent' => NULL,
+    'is_shell' => NULL,
+    'public_clone_url' => 'https://github.com/diversen/footer',
+    'private_clone_url' => 'git@github.com:diversen/footer',
+  ),
 );
 
 $_PROFILE_TEMPLATES = array (
