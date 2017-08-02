@@ -161,7 +161,7 @@ $_PROFILE_MODULES = array (
   array (
     'id' => '13',
     'module_name' => 'userinfo',
-    'module_version' => 'v11.0.1',
+    'module_version' => 'v11.0.3',
     'menu_item' => '1',
     'run_level' => '0',
     'load_on' => NULL,
